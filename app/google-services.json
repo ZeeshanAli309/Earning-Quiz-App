@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087363443346",
+    "project_id": "earningquiz-clone",
+    "storage_bucket": "earningquiz-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087363443346:android:b08a90a50a35ab19bed44b",
+        "android_client_info": {
+          "package_name": "com.example.earningquizclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkHWdR6ncGIi88k8HGCPJ5N-8osFn7Sys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/secondbackground"
+    tools:context=".QuizActivty">
+
+    <Button
+        android:id="@+id/Option_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/ButtonWhite"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Option 3"
+        android:textColor="@color/BlackTextColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_opt2"
+        app:layout_constraintStart_toStartOf="@+id/button_opt2"
+        app:layout_constraintTop_toBottomOf="@+id/button_opt2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0"
+            android:src="@drawable/avtar" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="TextView"
+            android:textColor="@color/TextColorWhite"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/coin_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="0"
+            android:src="@drawable/coin" />
+
+        <TextView
+            android:id="@+id/coinTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/poppins_bold"
+            android:text="TextView"
+            android:textColor="@color/TextColorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/categoryImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/historyimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Questios ?"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/categoryImg"
+        app:layout_constraintStart_toStartOf="@+id/categoryImg"
+        app:layout_constraintTop_toBottomOf="@+id/categoryImg" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="What is Your Name ?"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Select One Of this"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button_opt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/ButtonWhite"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Option 2"
+        android:textColor="@color/BlackTextColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/Option_2"
+        app:layout_constraintStart_toStartOf="@+id/Option_2"
+        app:layout_constraintTop_toBottomOf="@+id/Option_2" />
+
+    <Button
+        android:id="@+id/option_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/ButtonWhite"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Option 4"
+        android:textColor="@color/BlackTextColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/Option_3"
+        app:layout_constraintStart_toStartOf="@+id/Option_3"
+        app:layout_constraintTop_toBottomOf="@+id/Option_3" />
+
+    <Button
+        android:id="@+id/Next_Option"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ButtonWhite"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Next Option"
+        android:textColor="@color/BlackTextColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_4" />
+
+    <Button
+        android:id="@+id/Option_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/ButtonWhite"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Option 1"
+        android:textColor="@color/BlackTextColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
